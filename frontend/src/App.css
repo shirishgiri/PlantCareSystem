@@ -1,0 +1,9 @@
+.app{
+    width: 100%;
+    background-color: #f4f7f6;
+    padding-top: 10px;
+}
+
+.no-scroll {
+  height: 100vh; 
+}

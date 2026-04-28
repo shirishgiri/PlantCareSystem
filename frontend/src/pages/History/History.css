@@ -1,0 +1,60 @@
+.history-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.history-title {
+    color: #1a365d;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: 0.3s;
+}
+
+.history-item:hover {
+    border-color: #3182ce;
+    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.1);
+}
+
+.history-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-disease {
+    font-weight: 700;
+    color: #2d3748;
+    font-size: 1.1rem;
+}
+
+.history-date {
+    font-size: 13px;
+    color: #a0aec0;
+    margin-top: 4px;
+}
+
+.history-confidence {
+    background: #ebf8ff;
+    color: #3182ce;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+}

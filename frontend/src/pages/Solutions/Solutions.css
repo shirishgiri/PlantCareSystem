@@ -1,0 +1,65 @@
+.solutions-container {
+    padding: 50px 5%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #f7fafc; 
+    min-height: 100vh;
+}
+
+.solutions-title {
+    color: #1a365d;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.solutions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.solution-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease;
+}
+
+.solution-card:hover {
+    border-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(49, 130, 206, 0.1);
+}
+
+.disease-name {
+    color: #2b6cb0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #ebf8ff;
+    padding-bottom: 10px;
+    display: block; 
+}
+
+.disease-solution {
+    color: #4a5568;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.disease-solution p {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .solutions-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
